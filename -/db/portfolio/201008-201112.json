@@ -1,0 +1,29 @@
+﻿{
+    "status": 1,
+    "data": {
+        "guid": "rosa",
+        "list": [
+            {
+                "guid": "vigor",
+                "title": "vigor",
+                "description": "vigor",
+                "max": 25,
+                "thumbnail": "vigor-1.jpg"
+            },
+            {
+                "guid": "infection",
+                "title": "infection",
+                "description": "infection",
+                "max": 18,
+                "thumbnail": "infection-1.jpg"
+            },
+            {
+                "guid": "ioasis",
+                "title": "ioasis",
+                "description": "ioasis",
+                "max": 20,
+                "thumbnail": "ioasis-1.jpg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "status": 1,
+    "data": {
+        "guid": "rosa",
+        "list": [
+            {
+                "guid": "201505",
+                "type": "work",
+                "name": "baidu",
+                "description": "百度搜索项目",
+                "time": [ 1432137600000, 1409500800000 ],
+                "thumbnail": "thumbnail.png"
+            },
+            {
+                "guid": "201109-201409",
+                "type": "work",
+                "name": "lenovo",
+                "description": "Portfolio (2011.09-2014.09)",
+                "time": [ 1314806400000, 1409500800000 ],
+                "thumbnail": "thumbnail.jpg"
+            },
+            {
+                "guid": "201008-201112",
+                "type": "school",
+                "name": "school",
+                "description": "Portfolio (2010 - 2011)",
+                "time": [ 1280592000000, 1322668800000 ],
+                "thumbnail": "thumbnail.jpg"
+            }
+        ]
+    }
+}
