@@ -1,0 +1,25 @@
+﻿<main class="container tag-page" role="main">
+  <div class="row">
+    <div class="portfolioschool-listBox">
+      <%_.each(d,function(item,index){%>
+      <article class="panel post" data-scroll-reveal="enter bottom">
+        <header class="panel-heading post-header">
+          <h2 class="post-title"><%=item.description%></h2>
+        </header>
+        <div class="content" data-id="<%=item.guid%>" data-current="1" style="position: relative;text-align:center;min-height:200px;">
+          <a class="left carousel-control" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <img class="img_portfolio" src="<%=ls.config.m.host + ls.config.m.photo + "/" + item.guid + "/" + item.thumbnail%>" alt="<%=item.name%>" />
+          <a class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <img id="portfolio_school" style="display:none;position:absolute;left:0px;top:0px;right:0px;bottom:0px;margin:auto;" src="themes/images/processing.gif" alt="loading" />
+        </div>
+      </article>
+      <%});%>
+    </div>
+  </div>
+</main>
